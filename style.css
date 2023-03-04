@@ -3,6 +3,20 @@ body{
     margin: 0;
     background: #009578;
 }
+nav ul{
+    list-style-type:none;
+}
+nav{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:0 12px;
+    font-size: 30px;    
+    letter-spacing: 2px;
+}
 #app{
     display: grid;
     grid-template-columns: repeat(auto-fill,200px);
